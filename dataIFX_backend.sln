@@ -5,7 +5,21 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFolders 123", "WindowsFolders 123\WindowsFolders 123.csproj", "{FDC0C265-A73F-4DD8-8CD8-45BBD9EA96DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prueba2", "prueba2\prueba2.csproj", "{B4BA8031-4E85-40F2-A81C-0E3CFC3F1B2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursividad", "prueba2\Recursividad.csproj", "{B4BA8031-4E85-40F2-A81C-0E3CFC3F1B2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Conceptos", "Conceptos", "{301DC6F4-4483-4544-8550-BB00E319AECD}"
+	ProjectSection(SolutionItems) = preProject
+		Conceptos.md = Conceptos.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Punto1", "Punto1", "{E70F8CE0-F56F-45A0-9956-E8209C6287A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Punto2", "Punto2", "{0BA59A91-6F4C-41C3-A6FA-FD85B6EB4431}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{01FD8DDB-3849-4330-924E-6C8312A6E810}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +38,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDC0C265-A73F-4DD8-8CD8-45BBD9EA96DD} = {E70F8CE0-F56F-45A0-9956-E8209C6287A3}
+		{B4BA8031-4E85-40F2-A81C-0E3CFC3F1B2D} = {0BA59A91-6F4C-41C3-A6FA-FD85B6EB4431}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DAFDB14C-2947-488D-9E4C-EB1FCA855140}

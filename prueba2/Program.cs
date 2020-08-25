@@ -1,12 +1,17 @@
 ﻿using System;
 
-namespace prueba2
+namespace Recursividad
 {
     class Program
     {
+        static int number = 1;
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            if (number <= 100)
+            {
+                Console.Write(" {0} ", number++);
+                Main(null);
+            }
         }
     }
 }
